@@ -1,2 +1,2 @@
 # CTF-Upsolve
-Interesting challenges from CTF
+Challenges from past CTFs that I find interesting and want to upsolve.

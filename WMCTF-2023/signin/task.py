@@ -1,6 +1,6 @@
 from Crypto.Util.number import *
 from random import randrange
-from secret import flag
+flag='Hanni'
 
 def pr(msg):
     print(msg)
