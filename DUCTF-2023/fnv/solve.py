@@ -37,8 +37,9 @@ for i in reversed(range(1,len(cvp))):
     h1+=cvp[i]
 
 s.append((target-h*pow(a,deg,b))%b-cvp[0])
+# solution
 print(bytes(s).hex())
-
+# check
 h1=h
 for i in s:
     h1 *= 0x00000100000001b3
