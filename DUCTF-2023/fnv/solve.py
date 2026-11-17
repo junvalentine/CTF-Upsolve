@@ -45,4 +45,5 @@ for i in s:
     h1 *= 0x00000100000001b3
     h1 &= (b-1)
     h1 ^= i
-print(h1)
+from Crypto.Util.number import *
+print(long_to_bytes(h1).hex())
